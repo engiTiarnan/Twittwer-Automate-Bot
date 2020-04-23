@@ -1,0 +1,16 @@
+Code used in windows powershell (admin) to set up the background service:
+    sc.exe create arbot Displayname= "arbot" binpath= "srvstart.exe arbot -c C:\arbot.ini" start= auto
+
+<servicename> = arbot # the generic services name
+<path to srvstart config file> = C:config_file.ini
+<starttype> = auto # automatically starts with windows
+
+srvstart was downloaded from a git repository and place into my C:\
+
+
+Sources used to help me build this:
+source: https://www.howtogeek.com/50786/using-srvstart-to-run-any-application-as-a-windows-service/
+source: https://pypi.org/project/bitlyshortener/
+source: https://pythontips.com/2013/09/14/making-a-reddit-twitter-bot/
+source: https://www.reddit.com/r/modhelp/comments/ebty4/tutorial_how_to_create_a_automatic_twitter/#
+ource: https://www.reddit.com/r/Python/comments/fhko8r/i_made_a_twitter_bot_here_is_an_explanation_in/
