@@ -1,3 +1,5 @@
+// Collection of Reddit Post ID's used to prevent double posts on twitter
+
 g47mxl
 g4qll1
 g5n594
@@ -5,7 +7,8 @@ g5qfh9
 g5ak9z
 g5lglq
 g5lctk
-g60z7dg635d8
+g60z7d
+g635d8
 g65z57
 g63xy8
 g6qnch
