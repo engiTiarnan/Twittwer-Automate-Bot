@@ -5,7 +5,7 @@ import time
 
 # BITLY RELATED TOKENS
 
-BITLY_ACCESS_TOKEN = ['432827ffee9fd8e0cad314599404cb7687d6855a']
+BITLY_ACCESS_TOKEN = ['X']
 
 
 # TWITTER RELATED AUTHORISATION LINKS
@@ -102,10 +102,10 @@ def tweeter(post_dict, post_ids):
 
     # Access token taken from twitter Dev account
 
-    ACCESS_TOKEN = '1247548618170662914-7vBTmn2S4iHmZNUVn4LG5qddOf78wD'
-    ACCESS_TOKEN_SECRET = 'm95MmMTG9YbrsdhN65Bb5ZVuuSAULoVyJgmvjvVNPEgBA'
-    CONSUMER_KEY = 'OYizjP4pQQM7LcF8olriWTRUe'
-    CONSUMER_SECRET = 'EgMynqD4avAqKN0ZwcWv6P8ubcl6PfGpUmBLu3kifUJU6hYtl4'
+    ACCESS_TOKEN = 'X'
+    ACCESS_TOKEN_SECRET = 'X'
+    CONSUMER_KEY = 'X'
+    CONSUMER_SECRET = 'X'
 
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
